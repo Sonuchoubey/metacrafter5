@@ -3,10 +3,10 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract PramodToken is ERC20 {
+contract SonuToken is ERC20 {
     address public administrator;
 
-    constructor(uint256 initialSupply) ERC20("Pramod", "Pramod") {
+    constructor(uint256 initialSupply) ERC20("Sonu", "Sonu") {
         _mint(msg.sender, initialSupply);
         administrator = msg.sender;
     }
